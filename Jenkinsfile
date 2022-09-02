@@ -3,23 +3,8 @@ pipeline {
   stages {
     stage ("build"){
       steps {
-        echo "running build......."
-        nodejs('myNodejs') {
-          sh 'yarn install'
-        }
-      }
-    }
-      stage ("test"){
-      steps {
-        echo "testing build time interval one......"
-        withGradle() {
-          sh './gradlew'
-        }
-      }
-    }
-      stage ("depoyj"){
-      steps {
-        echo "deploying build......"
+        sh 'python3 --version'
+        
       }
     }
   }

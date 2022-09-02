@@ -1,20 +1,20 @@
 pipeline {
   agent any
   stages {
-    stage ("build"){
+    stage ("build") {
       steps {
         sh 'python3 --version'
         
       }
     }
-    tage ("test"){
+    tage ("test") {
       steps {
         sh 'python3 --version'
         
       }
     }
     
-    tage ("deploy"){
+    tage ("deploy") {
       steps {
         sh 'python3 --version'
         

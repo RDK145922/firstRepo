@@ -3,20 +3,20 @@ pipeline {
   stages {
     stage ("build") {
       steps {
-        sh 'python3 --version'
+        sh 'python --version'
         
       }
     }
     tage ("test") {
       steps {
-        sh 'python3 --version'
+        sh 'python --version'
         
       }
     }
     
     tage ("deploy") {
       steps {
-        sh 'python3 --version'
+        sh 'python --version'
         
       }
     }

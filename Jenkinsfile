@@ -8,7 +8,7 @@ pipeline {
     }
       stage ("test"){
       steps {
-        echo "testing build......."
+        echo "testing build time interval one......"
       }
     }
       stage ("depoyj"){

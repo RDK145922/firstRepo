@@ -13,7 +13,7 @@ pipeline {
       steps {
         echo "testing build time interval one......"
         withGradle() {
-          sh './gradlew -v'
+          sh './gradlew'
         }
       }
     }

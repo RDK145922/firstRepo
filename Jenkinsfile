@@ -7,6 +7,20 @@ pipeline {
         
       }
     }
+    tage ("test"){
+      steps {
+        sh 'python3 --version'
+        
+      }
+    }
+    
+    tage ("deploy"){
+      steps {
+        sh 'python3 --version'
+        
+      }
+    }
+    
   }
   
 }  

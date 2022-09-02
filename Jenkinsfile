@@ -8,14 +8,14 @@ pipeline {
         
       }
     }
-    tage ("test") {
+    stage ("test") {
       steps {
         
         echo "test..."
       }
     }
     
-    tage ("deploy") {
+    stage ("deploy") {
       steps {
         
         echo "deploy..."
